@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "Window Title Hider",
+	"version": "0.1",
+    "description": "Hides the brower window title on the task bar (shows name first)",
+  
+    "background": {
+        "scripts": [
+			"background.js"
+		]
+	},
+	
+    "permissions": [
+        "menus",
+        "storage",
+        "tabs"
+    ]
+  }
